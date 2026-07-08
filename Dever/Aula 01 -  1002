@@ -1,1 +1,12 @@
-
+#include <stdio.h>	
+	int main() {
+	
+	double a,b, c ;
+	c= 3.14159;
+	scanf("%lf" ,&a	);
+	
+	b= c*(a*a);
+	
+	printf("A=%.4lf\n" ,b);
+	}
+		
